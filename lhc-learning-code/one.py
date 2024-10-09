@@ -27,8 +27,8 @@ plane_params.restitution = 0
 gym.add_ground(sim, plane_params)
 
 asset_root = "../assets"
-# Failed to parse URDF file
-asset_file = "urdf/fr5_robot_description/robots/fr5_robot.urdf"
+# fr5 robot URDF model
+asset_file = "urdf/fr5_robot_descripiton/robots/fr5_robot.urdf"
 
 # Example
 # asset_file = "urdf/franka_description/robots/franka_panda.urdf"
