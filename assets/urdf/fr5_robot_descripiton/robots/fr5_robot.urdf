@@ -33,7 +33,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://fr5_robot_description/meshes/visual/base.dae" />
+          filename="/home/lhc/PycharmProjects/Comprehensive-design-of-intelligent-systems/assets/urdf/fr5_robot_descripiton/meshes/visual/base.dae" />
       </geometry>
       <material
         name="">
@@ -47,7 +47,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://fr5_robot_description/meshes/collision/base_link.STL" />
+          filename="/home/lhc/PycharmProjects/Comprehensive-design-of-intelligent-systems/assets/urdf/fr5_robot_descripiton/meshes/collision/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -73,7 +73,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://fr5_robot_description/meshes/visual/shoulder.dae" />
+          filename="/home/lhc/PycharmProjects/Comprehensive-design-of-intelligent-systems/assets/urdf/fr5_robot_descripiton/meshes/visual/shoulder.dae" />
       </geometry>
       <material
         name="">
@@ -87,7 +87,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://fr5_robot_description/meshes/collision/shoulder_Link.STL" />
+          filename="/home/lhc/PycharmProjects/Comprehensive-design-of-intelligent-systems/assets/urdf/fr5_robot_descripiton/meshes/collision/shoulder_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -142,7 +142,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://fr5_robot_description/meshes/visual/upperarm.dae" />
+          filename="/home/lhc/PycharmProjects/Comprehensive-design-of-intelligent-systems/assets/urdf/fr5_robot_descripiton/meshes/visual/upperarm.dae" />
       </geometry>
       <material
         name="">
@@ -156,7 +156,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://fr5_robot_description/meshes/collision/upperarm_Link.STL" />
+          filename="/home/lhc/PycharmProjects/Comprehensive-design-of-intelligent-systems/assets/urdf/fr5_robot_descripiton/meshes/collision/upperarm_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -211,7 +211,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://fr5_robot_description/meshes/visual/forearm.dae" />
+          filename="/home/lhc/PycharmProjects/Comprehensive-design-of-intelligent-systems/assets/urdf/fr5_robot_descripiton/meshes/visual/forearm.dae" />
       </geometry>
       <material
         name="">
@@ -225,7 +225,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://fr5_robot_description/meshes/collision/forearm_Link.STL" />
+          filename="/home/lhc/PycharmProjects/Comprehensive-design-of-intelligent-systems/assets/urdf/fr5_robot_descripiton/meshes/collision/forearm_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -280,7 +280,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://fr5_robot_description/meshes/visual/wrist1.dae" />
+          filename="/home/lhc/PycharmProjects/Comprehensive-design-of-intelligent-systems/assets/urdf/fr5_robot_descripiton/meshes/visual/wrist1.dae" />
       </geometry>
       <material
         name="">
@@ -294,7 +294,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://fr5_robot_description/meshes/collision/wrist1_Link.STL" />
+          filename="/home/lhc/PycharmProjects/Comprehensive-design-of-intelligent-systems/assets/urdf/fr5_robot_descripiton/meshes/collision/wrist1_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -349,7 +349,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://fr5_robot_description/meshes/visual/wrist2.dae" />
+          filename="/home/lhc/PycharmProjects/Comprehensive-design-of-intelligent-systems/assets/urdf/fr5_robot_descripiton/meshes/visual/wrist2.dae" />
       </geometry>
       <material
         name="">
@@ -363,7 +363,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://fr5_robot_description/meshes/collision/wrist2_Link.STL" />
+          filename="/home/lhc/PycharmProjects/Comprehensive-design-of-intelligent-systems/assets/urdf/fr5_robot_descripiton/meshes/collision/wrist2_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -418,7 +418,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://fr5_robot_description/meshes/visual/wrist3.dae" />
+          filename="/home/lhc/PycharmProjects/Comprehensive-design-of-intelligent-systems/assets/urdf/fr5_robot_descripiton/meshes/visual/wrist3.dae" />
       </geometry>
       <material
         name="">
@@ -432,7 +432,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://fr5_robot_description/meshes/collision/wrist3_Link.STL" />
+          filename="/home/lhc/PycharmProjects/Comprehensive-design-of-intelligent-systems/assets/urdf/fr5_robot_descripiton/meshes/collision/wrist3_Link.STL" />
       </geometry>
     </collision>
   </link>

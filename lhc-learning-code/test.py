@@ -146,7 +146,7 @@ asset_options = gymapi.AssetOptions()
 box_asset = gym.create_box(sim, box_size, box_size, box_size, asset_options)
 
 # load franka asset
-franka_asset_file = "urdf/fr5_robot_description/urdf/fr5_robot.urdf"
+franka_asset_file = "robots/fr5_robot_description/robots/fr5_robot.robots"
 asset_options = gymapi.AssetOptions()
 asset_options.armature = 0.01
 asset_options.fix_base_link = True
