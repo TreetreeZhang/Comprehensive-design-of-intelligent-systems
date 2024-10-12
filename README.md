@@ -1,4 +1,4 @@
-# lhc_learning_IsaacGym
+# Comprehensive-design-of-intelligent-systems
 ### About this repository
 
 This repository contains files of robot with reinforcement learning.
