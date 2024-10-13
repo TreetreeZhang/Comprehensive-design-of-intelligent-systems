@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
-#!coding=utf-8
+# !coding=utf-8
 
 import math
 from isaacgym import gymapi
 from isaacgym import gymutil
-
-
 
 # initialize gym
 gym = gymapi.acquire_gym()
@@ -40,8 +38,6 @@ if sim is None:
     print("*** Failed to create sim")
     quit()
 
-
-
 # add ground plane
 plane_params = gymapi.PlaneParams()
 gym.add_ground(sim, plane_params)
@@ -56,8 +52,6 @@ asset_options.fix_base_link = True
 asset_options.disable_gravity = True
 asset_options.flip_visual_attachments = True
 robot_asset = gym.load_asset(sim, asset_root, asset_file, asset_options)
-
-
 
 # Set up the env grid
 num_envs = 36
@@ -79,8 +73,6 @@ for i in range(num_envs):
     # add actor
     actor_handle = gym.create_actor(env, robot_asset, pose, "actor", i, 1)
 
-
-
 # Create viewer
 cam_props = gymapi.CameraProperties()
 viewer = gym.create_viewer(sim, cam_props)
@@ -88,11 +80,8 @@ if viewer is None:
     print("*** Failed to create viewer")
     quit()
 
-
-
 # Keep the viewer
 while not gym.query_viewer_has_closed(viewer):
-
     # step the physics
     gym.simulate(sim)
     gym.fetch_results(sim, True)
