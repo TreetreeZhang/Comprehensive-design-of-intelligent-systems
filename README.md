@@ -18,3 +18,10 @@ To load the fr5-robot, run this line
 ```bash
 python load_robot.py
 ```
+### Load robots with hands
+
+To load the fr5_robot with hands, run this line
+
+```bash
+python load_robot_with_hand.py
+```
